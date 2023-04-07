@@ -4,7 +4,7 @@ from bot import CMD_SUFFIX
 class _BotCommands:
     def __init__(self):
         self.StartCommand = f'start{CMD_SUFFIX}'
-        self.MirrorCommand = [f'mirror{CMD_SUFFIX}'
+        self.MirrorCommand = f'mirror{CMD_SUFFIX}'
         self.UnzipMirrorCommand = [f'unzipmirror{CMD_SUFFIX}', f'uzm{CMD_SUFFIX}']
         self.ZipMirrorCommand = [f'zipmirror{CMD_SUFFIX}', f'zm{CMD_SUFFIX}']
         self.QbMirrorCommand = [f'qbmirror{CMD_SUFFIX}', f'qbm{CMD_SUFFIX}']
